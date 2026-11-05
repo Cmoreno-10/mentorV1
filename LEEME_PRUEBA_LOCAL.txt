@@ -1,0 +1,80 @@
+MENTOR 217 — PRUEBA LOCAL
+
+OPCIÓN MÁS FÁCIL EN WINDOWS
+===========================
+1. Extrae completamente este ZIP.
+2. Abre la carpeta extraída.
+3. Haz doble clic en:
+   INICIAR_MENTOR_WINDOWS.bat
+4. La primera vez instalará dependencias.
+5. Cuando termine, abre en Chrome/Edge:
+   http://localhost:5173
+
+IMPORTANTE:
+- No cierres la ventana negra mientras usas MENTOR.
+- Para detener MENTOR, presiona Ctrl+C en esa ventana.
+
+VERIFICAR ANTES DE SUBIR A GITHUB
+==================================
+Haz doble clic en:
+VERIFICAR_ANTES_GITHUB.bat
+
+Debe superar:
+1. validación académica
+2. TypeScript
+3. build de producción
+
+USANDO WSL / LINUX
+==================
+Desde la carpeta:
+
+chmod +x INICIAR_MENTOR_WSL.sh
+./INICIAR_MENTOR_WSL.sh
+
+Verificación:
+
+chmod +x VERIFICAR_ANTES_GITHUB.sh
+./VERIFICAR_ANTES_GITHUB.sh
+
+DATOS DE PRUEBA
+===============
+Todo el progreso se almacena en localStorage del navegador.
+
+Para probar persistencia:
+1. Completa una lección.
+2. Responde varias preguntas.
+3. Cierra la pestaña.
+4. Vuelve a abrir MENTOR.
+5. El progreso debe mantenerse.
+
+Para probar respaldo:
+Ajustes -> Exportar JSON.
+
+Para restaurar:
+Ajustes -> Importar respaldo.
+
+PRUEBAS RECOMENDADAS
+====================
+- Dashboard
+- Ruta 16 semanas
+- Lecciones y notas
+- Mapas mentales
+- Banco de preguntas
+- Casos integradores
+- Retos avanzados
+- Simulacro
+- Flashcards
+- Normativa
+- Bitácora de errores
+- Progreso
+- Exportar/importar respaldo
+- Vista móvil del navegador
+
+GITHUB PAGES
+============
+Cuando la prueba local sea satisfactoria:
+1. Sube el contenido al repositorio.
+2. Settings -> Pages.
+3. Source -> GitHub Actions.
+4. Push a main activa el despliegue.
+
